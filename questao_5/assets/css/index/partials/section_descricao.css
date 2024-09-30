@@ -1,0 +1,24 @@
+section.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(0deg, #141410, #1b1b16);
+    background: -webkit-linear-gradient(0deg, #141410, #1b1b16);
+    width: 100%;
+    padding: 60px 80px;
+    overflow: hidden;
+}
+
+section.descricao h3 {
+    font-size: var(--f4);
+    font-weight: bold;
+    color: var(--cor-branco);    
+    line-height: 1;
+}
+
+section.descricao p {
+    font-size: var(--f3);
+    color: var(--cor-branco);
+    opacity: 0.7;
+}

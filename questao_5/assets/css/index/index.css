@@ -1,0 +1,9 @@
+@import '../global/global.css';
+
+@import './partials/nav.css';
+@import './partials/section_home.css';
+@import './partials/section_descricao.css';
+@import './partials/section_sobre.css';
+@import './partials/section_planos.css';
+@import './partials/section_contato.css';
+@import './partials/footer.css';

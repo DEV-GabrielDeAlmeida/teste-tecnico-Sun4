@@ -1,0 +1,24 @@
+section.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(0deg, #101014, #16161b);
+    background: -webkit-linear-gradient(0deg, #101014, #16161b);
+    width: 100%;
+    padding: 60px 80px;
+    overflow: hidden;
+    border-bottom: 1px solid var(--cor-cinza);
+}
+
+section.sobre h3 {
+    font-size: var(--f4);
+    font-weight: bold;
+    color: var(--cor-branco);    
+    line-height: 1;
+}
+
+section.sobre ul,li {
+    color: var(--cor-branco);
+    font-size: var(--f3);
+}

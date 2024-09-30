@@ -1,0 +1,107 @@
+section.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(0deg, #141410, #1b1b16);
+    background: -webkit-linear-gradient(0deg, #141410, #1b1b16);
+    width: 100%;
+    padding: 60px 80px;
+    overflow: hidden;
+}
+
+section.home .imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.home .imagem .foto {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+section.home .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+section.home .texto h1 {
+    font-size: var(--f6);
+    font-weight: bold;
+    color: var(--cor-branco);
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+section.home .texto h2 {
+    font-weight: bold;
+    font-size: var(--f4);
+    color: var(--cor-branco);
+    margin: 15px 0 10px 0;
+}
+
+section.home .texto h2 span {
+    color: var(--cor-amarelo);
+}
+
+section.home .texto p {
+    font-size: var(--f2);
+    color: var(--cor-branco);
+    opacity: 0.7;
+}
+
+section.home .texto .botoes {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+section.home .texto .botoes a {
+    font-size: var(--f2);
+    color: var(--cor-branco);
+    background-color: var(--cor-amarelo);
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+    transition: all 0.3s;
+}
+
+section.home .texto .botoes a:hover {
+    background-color: var(--cor-cinza);
+}
+
+@media screen and (max-width: 1000px) {
+    section.home {
+        flex-direction: column;
+        padding: 100px 30px 60px 30px;
+    }
+
+    section.home .imagem {
+        width: 100%;
+    }
+
+    section.home .imagem .foto {
+        height: 300px;
+        background-size: 900px;
+        border-radius: 10px;
+    }
+
+    section.apresentacao .texto p {
+        line-height: 1.5;
+        max-width: 250px;
+    }
+
+    section.apresentacao .texto .botoes {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 25px 0 30px 0;
+    }
+
+    section.apresentacao .texto .botoes a.destaque {
+        margin: 10px 0 0 0;
+    }
+
+}

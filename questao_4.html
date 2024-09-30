@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4 - Layout</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            background-color: #7a7800;
+            margin: 5px;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 1em;
+        }
+
+        .coluna {
+            flex-basis: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 1em;
+            height: 70vh;
+            background-color: #7a7800;
+            padding: 1em;
+            border: 1px solid #ddd;
+        }
+
+        footer {
+            background-color: #7a7800;
+            margin: 5px;
+            padding: 1em;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        @media only screen and (max-width: 923px) {
+            main {
+                flex-direction: column;
+            }
+
+            .coluna {
+                flex-basis: 100%;
+                min-height: 30vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>Cabeçalho</header>
+
+    <main>
+        <div class="coluna">Coluna 1</div>
+        <div class="coluna">Coluna 2</div>
+        <div class="coluna">Coluna 3</div>
+    </main>
+
+    <footer>Rodapé</footer>
+</body>
+
+</html>
