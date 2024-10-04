@@ -6,16 +6,19 @@ header {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid var(--cor-cinza);
+    justify-content: space-between;    
+    position: absolute;
     width: 100%;
     height: 100px;
     padding: 0 80px;
+    z-index: 10;
+    overflow: hidden;
 }
 
 nav img.logo {
     width: 100%;
     max-width: 150px;
+    border-radius: 10px;
 }
 
 nav .opcoes {
