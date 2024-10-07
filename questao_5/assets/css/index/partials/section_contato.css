@@ -16,7 +16,7 @@ section.contato .quadro {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100%;    
     max-width: 500px;
     border-radius: 10px;
     background-color: #ffffff10;
@@ -59,13 +59,25 @@ section.contato .quadro form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding:0 30px 30px 30px;
     width: 100%;
 }
 
 section.contato .quadro form .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     width: 100%;
+    margin: 10px 0 0 0;
+}
+
+section.contato .quadro form .input img {
+    position: absolute;
+    left: 20px;
+    width: 100%;
+    max-width: 15px;
+    pointer-events: none;
 }
 
 section.contato .quadro form .input input {
@@ -76,6 +88,10 @@ section.contato .quadro form .input input {
     padding: 20px;
     border-radius: 10px;
     transition: all 0.3s;
+}
+
+section.contato .quadro form .input.icone input {
+    padding: 20px 20px 20px 50px;
 }
 
 section.contato .quadro form .input input::placeholder {

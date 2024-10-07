@@ -7,6 +7,7 @@
     <title>Questão 5 - PROCESSEI</title>
 
     <link rel="stylesheet" href="./assets/css/index/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
         <div class="imagem">
             <img src="./assets/files/img/4.png" class="icone um">
             <img src="./assets/files/img/4.png" class="icone dois">
-            <div class="foto" style="background-image: url('./assets/files/img/section1_background.jpg');"></div>            
+            <div class="foto" style="background-image: url('./assets/files/img/section1_background.jpg');"></div>
         </div>
     </section>
 
@@ -64,40 +65,62 @@
     </section>
 
     <section class="planos" id="planos">
-        <h3>Nossos Planos</h3>
-        <div class="planos-container">
-            <div class="plano">
-                <h4>Plano Básico</h4>
-                <p>R$ 19,90/mês</p>
-                <ul>
-                    <li>Atualizações mensais via e-mail</li>
-                    <li>Acesso ao histórico de movimentações</li>
-                </ul>
-                <div class="box-button">
-                    <button class="botoes">Contratar</button>
+        <div class="container">
+            <div class="card">
+                <div class="card-title">
+                    <h2>Plano Básico</h2>
+                    <p><i class="fa-solid fa-brazilian-real-sign"></i><Span>R$ 19,90</Span>/mês</p>
+                </div>
+                <div class="card-content">
+                    <ul>
+                        <li><i class="fa fa-check-circle"></i>Acompanhe <span class="detalhe">até 3</span> processos
+                        </li>
+                        <li><i class="fa fa-check-circle"></i>Atualizações por e-mail</li>
+                        <li><i class="fa fa-check-circle"></i>Acesso ao painel de controle </li>
+                        <li><i class="fa fa-check-circle"></i>Suporte básico</li>
+                        <li><i class="fa fa-times-circle" style="color: red;"></i>Notificações e alertas de prazos</li>
+                        <li><i class="fa fa-times-circle" style="color: red;"></i>Integração com outras ferramentas</li>
+                        <li><i class="fa fa-times-circle" style="color: red;"></i>Consultoria jurídica</li>
+                    </ul>
+                    <button><a href="#">Contratar</a></button>
                 </div>
             </div>
-            <div class="plano" id="plano">
-                <h4>Plano Essencial</h4>
-                <p>R$ 39,90/mês</p>
-                <ul>
-                    <li>Atualizações semanais via e-mail</li>
-                    <li>Acesso ao histórico de movimentações e documentos</li>
-                </ul>
-                <div class="box-button">
-                    <button class="botoes">Contratar</button>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Plano Essencial</h2>
+                    <p><i class="fa-solid fa-brazilian-real-sign"></i><Span>R$ 39,90</Span>/mês</p>
+                </div>
+                <div class="card-content">
+                    <ul>
+                        <li><i class="fa fa-check-circle"></i>Acompanhe <span class="detalhe">até 10</span> processos
+                        </li>
+                        <li><i class="fa fa-check-circle"></i>Atualizações detalhadas por e-mail</li>
+                        <li><i class="fa fa-check-circle"></i>Relatórios mensais</li>
+                        <li><i class="fa fa-check-circle"></i>Suporte prioritário</li>
+                        <li><i class="fa fa-check-circle"></i>Notificações e alertas de prazos</li>
+                        <li><i class="fa fa-times-circle" style="color: red;"></i>Integração com outras ferramentas</li>
+                        <li><i class="fa fa-times-circle" style="color: red;"></i>Consultoria jurídica</li>
+                    </ul>
+                    <button><a href="#">Contratar</a></button>
                 </div>
             </div>
-            <div class="plano">
-                <h4>Plano Completo</h4>
-                <p>R$ 59,90/mês</p>
-                <ul>
-                    <li>Atualizações diárias</li>
-                    <li>Relatórios detalhados e alertas personalizados</li>
-                    <li>Suporte prioritário</li>
-                </ul>
-                <div class="box-button">
-                    <button class="botoes">Contratar</button>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Plano <span class="detalhe">Completo</span></h2>
+                    <p><i class="fa-solid fa-brazilian-real-sign"></i><Span>R$ 59,90</Span>/mês</p>
+                </div>
+                <div class="card-content">
+                    <ul>
+                        <li><i class="fa fa-check-circle"></i>Acompanhamento <span class="detalhe">ilimitado</span> de
+                            processos</li>
+                        <li><i class="fa fa-check-circle"></i>Atualizações em tempo real</li>
+                        <li><i class="fa fa-check-circle"></i>Relatórios personalizados</li>
+                        <li><i class="fa fa-check-circle"></i>Notificações e alertas de prazos</li>
+                        <li><i class="fa fa-check-circle"></i>Suporte premium 24/7</li>
+                        <li><i class="fa fa-check-circle"></i>Integração com outras ferramentas</li>
+                        <li><i class="fa fa-check-circle"></i>Consultoria jurídica</li>
+                    </ul>
+                    <button><a href="#">Contratar</a></button>
                 </div>
             </div>
         </div>
@@ -115,20 +138,20 @@
                 <p>Entre em contato conosco através do formulario de inscrição por e-mail ou telefone.</p>
             </div>
             <form>
-                <div class="input">
-                    <img src="">
+                <div class="input icone">
+                    <img src="./assets/files/img/icone-form-nome.png">
                     <input type="text" placeholder="Seu nome">
                 </div>
-                <div class="input">
-                    <img src="">
+                <div class="input icone">
+                    <img src="./assets/files/img/icone-form-email.png">
                     <input type="email" placeholder="email@gmail.com">
                 </div>
-                <div class="input">
-                    <img src="">
-                    <input type="text" placeholder="(00) 99999-9999">
+                <div class="input icone">
+                    <img src="./assets/files/img/icone-form-telefone.png">
+                    <input type="text" id="telefone" placeholder="(00) 99999-9999">
                 </div>
-                <div class="input">
-                    <img src="">
+                <div class="input icone">
+                    <img src="./assets/files/img/icone-form-processo.png">
                     <input type="number" placeholder="Número do Processo">
                 </div>
                 <div class="input">
@@ -148,6 +171,8 @@
             <p>Todos os direitos reservados.</p>
         </div>
     </footer>
+
+    <script type="text/javascript" src="./assets/js/mascaraTelefone.js"></script>
 </body>
 
 </html>

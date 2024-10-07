@@ -106,7 +106,8 @@ section.home .texto .botoes a:hover {
 section.home .blush {
     width: 1000px;
     height: 1000px;
-    background: radial-gradient(#fffb1d78, transparent 50%);
+    /* background: radial-gradient(#fffb1d78, transparent 50%); */
+    background: radial-gradient(#ffffffe8, transparent 50%);
     border-radius: 50%;
     opacity: 0.2;
     position: absolute;
