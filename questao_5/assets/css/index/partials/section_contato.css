@@ -16,7 +16,7 @@ section.contato .quadro {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;    
+    width: 100%;
     max-width: 500px;
     border-radius: 10px;
     background-color: #ffffff10;
@@ -59,7 +59,7 @@ section.contato .quadro form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:0 30px 30px 30px;
+    padding: 0 30px 30px 30px;
     width: 100%;
 }
 
@@ -72,11 +72,27 @@ section.contato .quadro form .input {
     margin: 10px 0 0 0;
 }
 
+.textArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin: 10px 0 0 0;
+    font-size: var(--f2);
+    color: var(--cor-branco);
+    background-color: #ffffff10;
+    min-height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
 section.contato .quadro form .input img {
     position: absolute;
     left: 20px;
     width: 100%;
-    max-width: 15px;
+    max-width: 25px;
     pointer-events: none;
 }
 
