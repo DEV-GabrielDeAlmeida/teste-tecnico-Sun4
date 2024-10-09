@@ -8,6 +8,7 @@ section.planos {
     width: 100%;
     padding: 60px 80px;
     overflow: hidden;
+    border-bottom: 1px solid var(--cor-cinza);
 }
 
 .container {
