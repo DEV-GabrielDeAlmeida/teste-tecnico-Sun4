@@ -2,8 +2,10 @@ section.home {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(0deg, #141410, #1b1b16);
-    background: -webkit-linear-gradient(0deg, #141410, #1b1b16);
+    /* background: linear-gradient(0deg, #141410, #1b1b16);
+    background: -webkit-linear-gradient(0deg, #141410, #1b1b16); */
+    background: linear-gradient(0deg, #101014, #16161b);
+    background: -webkit-linear-gradient(0deg, #101014, #16161b);
     width: 100%;
     padding: 120px 80px 60px 80px;
     overflow: hidden;
